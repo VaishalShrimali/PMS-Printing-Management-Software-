@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Material Detail's</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" >
+</head>
+<style type="text/css">
+  body {
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "Lato", sans-serif;
+  color: #3498DB  ;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #AED6F1 ;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 12px;}
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+<body>
+
+}
+</style>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="img/avtar1.png" alt="Avatar" class="avatar">
+   <a href="#">Material</a>
+   <a href="#">Pending</a>
+  <a href="#">On Progress</a>
+
+</div>
+<div id="main">
+ 
+   <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; Slide It</span>
+  <section style="background-color: #eee;">
+  <section style="background-color: #eee;">
+  <div class="text-center container py-5">
+    <h4 class="mt-4 mb-5"><strong>Material's List </strong></h4>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="img/inkjet.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Inkjet Printing Paper</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 100</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="img/laser.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Laser Printing Paper</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 250</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/matte.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Matte Paper Printing</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 150</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/glossy.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Glossy Printing Paper's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Boxes : 100</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="img/card_stock.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Card Stock Paper's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 200</p>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/resume.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Resume Paper's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 150</p>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/soft_bound.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Soft Bound Paper's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 150</p>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+ 
+     
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/envelope_paper.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Envelope Paper's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 150</p>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="img/card_sheet.png"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset"> 
+              <h5 class="card-title mb-3">Visiting Card Paper Sheet's</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Total Box : 150</p>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+   </div>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("main").style.marginLeft = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" ></script>
+   
+</body>
+</html>
